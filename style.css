@@ -299,6 +299,41 @@ footer {
     list-style: none;
     text-decoration: none;
 }
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+.footer h2, .footer h3 {
+    margin-bottom: 10px;
+}
+.footer p, .footer-links a, .footer-hours p, .footer-contact a, .footer-social a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footer-links a:hover, .footer-contact a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+footer .footer-brand {
+    grid-column: span 1;
+}
+footer .footer-links {
+    grid-column: span 1;
+}
+footer .footer-hours {
+    grid-column: span 1;
+}
+footer .footer-contact {
+    grid-column: span 1;
+}
+footer .footer-social {
+    grid-column: span 1;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
 
 
