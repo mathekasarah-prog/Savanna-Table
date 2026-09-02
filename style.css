@@ -62,6 +62,27 @@ nav ul a:hover {
     background-position: center;
     color: white;
     text-align: center;
+    height: 80vh;
+}
+#hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+#hero-section a {
+    display: inline-block;
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#hero-section a:hover {
+    background-color: #a0522d;
 }
 
 #menu-section {
