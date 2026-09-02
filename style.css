@@ -76,11 +76,13 @@ nav ul a:hover {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
-#hero-section a {
+.hero-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
     align-items: center;
+}
+#hero-section a {
     background-color: #8b4513;
     color: white;
     padding: 10px 20px;
@@ -91,6 +93,17 @@ nav ul a:hover {
 #hero-section a:hover {
     background-color: #a0522d;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+
 
 #menu-section {
     padding: 40px;
