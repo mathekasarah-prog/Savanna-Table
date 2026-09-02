@@ -77,7 +77,10 @@ nav ul a:hover {
     margin-bottom: 30px;
 }
 #hero-section a {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
     background-color: #8b4513;
     color: white;
     padding: 10px 20px;
