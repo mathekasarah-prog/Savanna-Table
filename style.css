@@ -308,10 +308,15 @@ footer {
 .footer h2, .footer h3 {
     margin-bottom: 10px;
 }
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
 .footer p, .footer-links a, .footer-hours p, .footer-contact a, .footer-social a {
     color: white;
     text-decoration: none;
     margin-bottom: 5px;
+    list-style: none;
 }
 .footer-links a:hover, .footer-contact a:hover, .footer-social a:hover {
     text-decoration: underline;
