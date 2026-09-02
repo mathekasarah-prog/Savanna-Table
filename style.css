@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+header {
+    padding: 20px 40px;
+}
+nav > a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+nav ul a:hover {
+    color: #8b4513;
+}
+
+.booking-button {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}   
+.booking-button:hover {
+    background-color: #a0522d;
+}
+
+#hero-section {
+    padding: 60px 40px;
+    background-image: url('Images/hero-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+#menu-section {
+    padding: 40px;
+    background-color: #fff;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.menu-card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.menu-card:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.menu-card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu-card h3{
+    margin: 10px 0;
+}
+.menu-card p{
+    color: #666;
+    margin-bottom: 10px;
+}
+.menu-card .price{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #8b4513;
+}
+.menu-card button{
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#services-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.services-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.services-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.services-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.service-icon {
+    font-size: 2rem;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+.services-card h3 {
+    margin: 10px 0;
+}
+
+services-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+#chefs-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.chef-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.chef-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chef-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.chef-card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.chef-card h3 {
+    margin: 10px 0;
+}
+.chef-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+.chef-card a {
+    color: #8b4513;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .menu-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

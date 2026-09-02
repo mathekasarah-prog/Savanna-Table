@@ -1,0 +1,13 @@
+<article class="menu-card">
+            <img
+              src="Images/chicken-breast.jpeg"
+              alt="Image of our honey laced chicken breast dish"
+            />
+            <h3>Chicken Breast</h3>
+            <p>
+              Crispy, juicy chicken breast seasoned with our signature
+              African-inspired spices.
+            </p>
+            <span>Ksh 850</span>
+            <button type="button">Order Now</button>
+          </article>

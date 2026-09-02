@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+            <fieldset>
+              <legend>Customer Information</legend>
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+              </fieldset>
+
+              <fieldset>
+                <legend>Reservation Details</legend>
+            <label for="reservation-date">Reservation Date</label>
+            <input type="date" id="reservation-date" name="reservation-date" required>
+
+            <label for="reservation-time">Reservation Time</label>
+            <input type="time" id="reservation-time" name="reservation-time" required>
+
+            <label for="guests-number">Number of Guests</label>
+            <input type="number" id="guests-number" name="guests-number" min="1" max="20" required>
+
+            <label for="seating">Preferred Seating</label>
+            <select name="seating" id="seating" required>
+              <option value="" selected disabled>Select your preferred seating</option>
+              <option value="indoors">Indoors</option>
+              <option value="outdoor">Outdoor</option>
+              <option value="private">Private Dining</option>
+            </select>
+            </fieldset>
+
+            <label for="special-requests">Special Requests</label>
+            <textarea name="special-requests" id="special-requests" placeholder="Tell us about any special requests"></textarea>
+
+            <button type="submit">Book a Table</button>
+
+          </form>
+</body>
+</html>

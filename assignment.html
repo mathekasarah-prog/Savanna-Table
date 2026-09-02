@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savanna Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    
+    <nav>
+        <a href="#home">Savanna Table</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div>
+            <h1>Authentic African Flavours, Freshly Served</h1>
+            <p>Experience good meals in a good environment</p>
+            </div>
+            <a href="#menu">Explore Our Menu</a>
+            <a href="#booking">Book a Table</a>
+
+        </section>
+
+        <section id="about">
+            <div>
+            <h2>Our Story</h2>
+            <p>At Savanna Table,we are well known for preparing outstanding delicious African quisine</p>
+            </div>
+            <img src="Images/savannatable.jpeg" alt="The reception area and part of the seating area at Savanna Table">
+            <a href="#contact">Discover Our Story</a>
+
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <p>Our restaurant is suitable for family, tourists dine ins.we also have a playground for children. </p>
+            <div class="menu-items">
+            <article class="menu-card">
+                <img src="Images/Mokimoandbeefstew" alt="A plate of Mokimo,beef stew and some vegetables on the side">
+                <h3>Mokimo and beef stew</h3>
+                <p>Mokimo served with spicy beef stew  and vegetables on the side</p>
+                <span>Ksh 550</span>
+                <button type="button">Order Now</button>
+            </article>
+
+            <article class="menu-card">
+                <img src="Images/Ugaliandbeefstew" alt="A plate of Ugali,beef stew and some vegetables on the side">
+                <h3>Ugali and beef stew</h3>
+                <p>Ugali served with spicy beef stew  and vegetables on the side</p>
+                <span>Ksh 650</span>
+                <button type="button">Order Now</button>
+            </article>
+            </div>
+
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>From casual dining to memorable celebrations, we offer services
+          designed to make every occasion special.</p>
+          <div class="service-items">
+            <article class="service-card">
+                <div class="service-icon">🍽️</div>
+                <div>
+                <h3>Dine In</h3>
+                <p>Enjoy freshly prepared meals in a warm, welcoming atmosphere.</p>
+                 </div>   
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">🥡</div>
+                <div>
+                <h3>Take Away</h3>
+                <p>Order your favorite dishes and enjoy them wherever you are.</p>
+                 </div>   
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">🎉</div>
+                <div>
+                <h3>Catering</h3>
+                <p>Enjoy professional catering services from us on your big day or any party or ceremony.</p>
+                 </div>   
+            </article>
+
+          </div>
+
+        </section>
+
+        <section id="booking">
+            <form action="">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required placeholder="Enter your full-name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required placeholder="+254*******">
+
+                <label for="reservation-date">Reservation Date</label>
+                <input type="date" id="reservation-date" name="reservation-date" required placeholder="Enter your reservation date">
+
+                <label for="reservation-time">Reservation Time</label>
+                <input type="time" id="reservation-time" name="reservation-time" required placeholder="Enter your reservation time">
+
+                <label for="number-of-guests">Number of Guests</label>
+                <input type="number" id="number-of-guests" name="number-of-guests" min="1" max="20" required>
+
+                <label for="preferred-seating">Preferred Seating</label>
+                <select name="preferred-seating" id="preferred-seating">
+                    <option value="" selected disabled>Select your preferred seating</option>
+                    <option value="indoors">Indoors</option>
+                    <option value="outdoors">Outdoors</option>
+                    <option value="private-dining">Private Dining</option>
+                </select>
+
+                <label for="special-requests">Special Requests</label>
+                <textarea name="special-requests" id="special-requests" placeholder="Tell us about any special requests"></textarea>
+
+                <button type="submit">Book a Table</button>
+            </form>
+
+        </section>
+        </main>
+
+        <footer>
+            <h2>Savanna Table</h2>
+
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <table>
+            <tbody>
+        <tr>
+            <th scope="row">Sunday-Friday</th>
+            <td>6:00 AM</td>
+            <td>9:00 PM</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Saturday</th>
+            <td>Closed</td>
+            <td>Closed</td>
+        </tr>
+            </tbody>
+        </table>
+
+        <h3>Contact Us</h3>
+          <p>Nairobi, Kenya</p>
+          <a href="tel:+254703318383">+254703318383</a>
+          <a href="mailto:hello@savannatable.com">hello@savannatable.com</a>
+
+          <p>© 2026 Savanna Table. All rights reserved</p>
+
+
+        </footer>
+
+    
+</body>
+</html>
