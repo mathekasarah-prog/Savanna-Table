@@ -11,3 +11,7 @@
             <span>Ksh 850</span>
             <button type="button">Order Now</button>
           </article>
+
+
+          const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector("nav ul");

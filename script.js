@@ -1,4 +1,5 @@
 console.log("Script loaded successfully");
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector("nav ul");
+console.log("my name is Sarah Matheka");
+console.log("I am a web developer");
+console.log(33);
