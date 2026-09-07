@@ -28,6 +28,30 @@ bookingForm.addEventListener("submit", function(event) {
     console.log(specialRequestsInput.value);
 });
 
+const personalizedForm = document.querySelector("personalized-form");
+personalizedForm.addEventListener("submit", function(event){
+    event.preventDefault();
+});
+
+const userNameInput = document.querySelector("#user-name");
+const userName = userNameInput.value;
+
+const userAgeInput = document.querySelector("user-age");
+const userAge = Number(userAgeInput.value);
+
+localStorage.setItem("userName", userName);
+
+localStorage.setItem("userAge, userAge");
+
+localStorage.getItem("userName");
+localStorage.getItem("userAge");
+
+const greeting = `Welcome to Savanna Table, ${savedName}`;
+const savedName = "Sarah";
+
+console.log(greeting);
+
+
 let name = "";
 let age = 0;
 
