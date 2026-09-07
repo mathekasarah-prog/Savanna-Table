@@ -1,11 +1,9 @@
-/*const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector("nav ul");
 hamburger.addEventListener('click', function() {
     console.log('Hamburger menu clicked');
         navLinks.classList.toggle("show");
 });
-
-const guests = Number(document.querySelector("#guests-number").value);
 
 
 const bookingForm = document.querySelector("#booking-form");
@@ -28,7 +26,7 @@ bookingForm.addEventListener("submit", function(event) {
     console.log(timeInput.value);
     console.log(seatingInput.value);
     console.log(specialRequestsInput.value);
-});*/
+});
 
 let name = "";
 let age = 0;
