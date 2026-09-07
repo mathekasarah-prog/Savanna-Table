@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('.hamburger');
+/*const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector("nav ul");
 hamburger.addEventListener('click', function() {
     console.log('Hamburger menu clicked');
@@ -28,6 +28,27 @@ bookingForm.addEventListener("submit", function(event) {
     console.log(timeInput.value);
     console.log(seatingInput.value);
     console.log(specialRequestsInput.value);
-});
+});*/
 
+let name = "";
+let age = 0;
 
+if (age >= 18) {
+    console.log("You can access adult content.");
+}else {
+    console.log("You are too young for adult content.");
+}
+//create a function to display a personalized greeting using template literals.
+function greetUser(name) {
+    console.log(`Hello, ${name}! Welcome to Savanna Table.`);
+}
+greetUser("John Mwangi");
+
+function calculateAgeInMonths(age){
+    return(age)*12;
+}
+console.log(calculateAgeInMonths(30));
+
+for (let i=0; i<5; i++) {
+    console.log("We can do it!");
+    }
